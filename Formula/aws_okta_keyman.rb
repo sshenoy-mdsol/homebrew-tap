@@ -1,6 +1,6 @@
 class AwsOktaKeyman < Formula
   include Language::Python::Virtualenv
-  
+
   desc "AWS Okta Keyman (Key Manager) - generating and managing local AWS API keys"
   homepage "https://github.com/nathan-v/aws_okta_keyman"
   url "https://github.com/sshenoy-mdsol/aws_okta_keyman/archive/refs/tags/v0.0.1.tar.gz"
