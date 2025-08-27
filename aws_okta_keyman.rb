@@ -1,12 +1,13 @@
 class AwsOktaKeyman < Formula
+  include Language::Python::Virtualenv
+
   desc "AWS Okta Keyman (Key Manager) - An AWS + Okta CLI for generating and managing local AWS API keys"
-  homepage "https://nathanv.com"
   url "https://github.com/sshenoy-mdsol/aws_okta_keyman/archive/refs/tags/v0.0.1.tar.gz"
   sha256 "eed19e43ab9e3708ca82207268b594df0888a067c1d97cb0ed20d7d1fbd86b3e"
-  license "NOASSERTION"
+
 
   depends_on "python"
-  
+
   resource "beautifulsoup4" do
     url "https://files.pythonhosted.org/packages/a1/69/daeee6d8f22c997e522cdbeb59641c4d31ab120aba0f2c799500f7456b7e/beautifulsoup4-4.10.0.tar.gz"
     sha256 "c23ad23c521d818955a4151a67d81580319d4bf548d3d49f4223ae041ff98891"
