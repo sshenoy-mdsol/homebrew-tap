@@ -8,7 +8,7 @@ class AwsOktaKeyman < Formula
 
   depends_on "python"
 
-    resource "beautifulsoup4" do
+  resource "beautifulsoup4" do
     url "https://files.pythonhosted.org/packages/85/2e/3e5079847e653b1f6dc647aa24549d68c6addb4c595cc0d902d1b19308ad/beautifulsoup4-4.13.5.tar.gz"
     sha256 "5e70131382930e7c3de33450a2f54a63d5e4b19386eab43a5b34d594268f3695"
   end
